@@ -11,4 +11,6 @@
 
 @interface SHControlViewController : SHNavigationViewController
 
+@property (nonatomic, strong)UITabBarController *tabBarController;
+
 @end

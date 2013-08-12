@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8FA0DCD17B8B5AC00F62DD6 /* SHLoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewViewController.m */; };
-		D8FA0DCE17B8B5AC00F62DD6 /* SHLoginViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewViewController.xib */; };
+		D8FA0DCD17B8B5AC00F62DD6 /* SHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewController.m */; };
+		D8FA0DCE17B8B5AC00F62DD6 /* SHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewController.xib */; };
 		D8FA0DD217B8B6BA00F62DD6 /* SHControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DD017B8B6BA00F62DD6 /* SHControlViewController.m */; };
 		D8FA0DD317B8B6BA00F62DD6 /* SHControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FA0DD117B8B6BA00F62DD6 /* SHControlViewController.xib */; };
 		D8FA0DD717B8B6CE00F62DD6 /* SHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DD517B8B6CE00F62DD6 /* SHSettingsViewController.m */; };
@@ -30,9 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8FA0DCA17B8B5AC00F62DD6 /* SHLoginViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLoginViewViewController.h; sourceTree = "<group>"; };
-		D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLoginViewViewController.m; sourceTree = "<group>"; };
-		D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHLoginViewViewController.xib; sourceTree = "<group>"; };
+		D8FA0DCA17B8B5AC00F62DD6 /* SHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLoginViewController.h; sourceTree = "<group>"; };
+		D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLoginViewController.m; sourceTree = "<group>"; };
+		D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHLoginViewController.xib; sourceTree = "<group>"; };
 		D8FA0DCF17B8B6BA00F62DD6 /* SHControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHControlViewController.h; sourceTree = "<group>"; };
 		D8FA0DD017B8B6BA00F62DD6 /* SHControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHControlViewController.m; sourceTree = "<group>"; };
 		D8FA0DD117B8B6BA00F62DD6 /* SHControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHControlViewController.xib; sourceTree = "<group>"; };
@@ -142,9 +142,9 @@
 		D8FC19BE17B89B8600C2627C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8FA0DCA17B8B5AC00F62DD6 /* SHLoginViewViewController.h */,
-				D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewViewController.m */,
-				D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewViewController.xib */,
+				D8FA0DCA17B8B5AC00F62DD6 /* SHLoginViewController.h */,
+				D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewController.m */,
+				D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewController.xib */,
 				D8FA0DCF17B8B6BA00F62DD6 /* SHControlViewController.h */,
 				D8FA0DD017B8B6BA00F62DD6 /* SHControlViewController.m */,
 				D8FA0DD117B8B6BA00F62DD6 /* SHControlViewController.xib */,
@@ -216,7 +216,7 @@
 				D8FC19AA17B89B0F00C2627C /* first@2x.png in Resources */,
 				D8FC19AF17B89B0F00C2627C /* second.png in Resources */,
 				D8FC19B117B89B0F00C2627C /* second@2x.png in Resources */,
-				D8FA0DCE17B8B5AC00F62DD6 /* SHLoginViewViewController.xib in Resources */,
+				D8FA0DCE17B8B5AC00F62DD6 /* SHLoginViewController.xib in Resources */,
 				D8FA0DD317B8B6BA00F62DD6 /* SHControlViewController.xib in Resources */,
 				D8FA0DD817B8B6CE00F62DD6 /* SHSettingsViewController.xib in Resources */,
 			);
@@ -231,7 +231,7 @@
 			files = (
 				D8FC199917B89B0F00C2627C /* main.m in Sources */,
 				D8FC199D17B89B0F00C2627C /* AppDelegate.m in Sources */,
-				D8FA0DCD17B8B5AC00F62DD6 /* SHLoginViewViewController.m in Sources */,
+				D8FA0DCD17B8B5AC00F62DD6 /* SHLoginViewController.m in Sources */,
 				D8FA0DD217B8B6BA00F62DD6 /* SHControlViewController.m in Sources */,
 				D8FA0DD717B8B6CE00F62DD6 /* SHSettingsViewController.m in Sources */,
 				D8FA0DDB17B8C19B00F62DD6 /* SHNavigationViewController.m in Sources */,

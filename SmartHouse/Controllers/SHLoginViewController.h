@@ -1,5 +1,5 @@
 //
-//  SHLoginViewViewController.h
+//  SHLoginViewController.h
 //  SmartHouse
 //
 //  Created by Roc on 13-8-12.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHNavigationViewController.h"
 
-@interface SHLoginViewViewController : SHNavigationViewController
+@interface SHLoginViewController : UIViewController
 
 @end

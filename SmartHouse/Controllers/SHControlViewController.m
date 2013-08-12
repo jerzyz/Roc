@@ -7,6 +7,8 @@
 //
 
 #import "SHControlViewController.h"
+#import "SHSettingsViewController.h"
+#import "SHControlViewController.h"
 
 @interface SHControlViewController ()
 
@@ -18,8 +20,11 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"控制界面";
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        UIViewController *viewController1 = [[SHControlViewController alloc] initWithNibName:nil bundle:nil];
+        UIViewController *viewController2 = [[SHSettingsViewController alloc] initWithNibName:nil bundle:nil];
+        
+        self.tabBarController = [[UITabBarController alloc] init];
+        self.tabBarController.viewControllers = @[viewController1, viewController2];
     }
     return self;
 }
