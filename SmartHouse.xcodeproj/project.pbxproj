@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5277648F17B926F4006E9122 /* SHControlDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277648D17B926F4006E9122 /* SHControlDetailViewController.m */; };
+		5277649017B926F4006E9122 /* SHControlDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5277648E17B926F4006E9122 /* SHControlDetailViewController.xib */; };
 		D8FA0DCD17B8B5AC00F62DD6 /* SHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewController.m */; };
 		D8FA0DCE17B8B5AC00F62DD6 /* SHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewController.xib */; };
 		D8FA0DD217B8B6BA00F62DD6 /* SHControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DD017B8B6BA00F62DD6 /* SHControlViewController.m */; };
-		D8FA0DD317B8B6BA00F62DD6 /* SHControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FA0DD117B8B6BA00F62DD6 /* SHControlViewController.xib */; };
 		D8FA0DD717B8B6CE00F62DD6 /* SHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DD517B8B6CE00F62DD6 /* SHSettingsViewController.m */; };
 		D8FA0DD817B8B6CE00F62DD6 /* SHSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FA0DD617B8B6CE00F62DD6 /* SHSettingsViewController.xib */; };
 		D8FA0DDB17B8C19B00F62DD6 /* SHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FA0DDA17B8C19B00F62DD6 /* SHNavigationViewController.m */; };
@@ -30,12 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5277648C17B926F4006E9122 /* SHControlDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHControlDetailViewController.h; sourceTree = "<group>"; };
+		5277648D17B926F4006E9122 /* SHControlDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHControlDetailViewController.m; sourceTree = "<group>"; };
+		5277648E17B926F4006E9122 /* SHControlDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHControlDetailViewController.xib; sourceTree = "<group>"; };
 		D8FA0DCA17B8B5AC00F62DD6 /* SHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLoginViewController.h; sourceTree = "<group>"; };
 		D8FA0DCB17B8B5AC00F62DD6 /* SHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLoginViewController.m; sourceTree = "<group>"; };
 		D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHLoginViewController.xib; sourceTree = "<group>"; };
 		D8FA0DCF17B8B6BA00F62DD6 /* SHControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHControlViewController.h; sourceTree = "<group>"; };
 		D8FA0DD017B8B6BA00F62DD6 /* SHControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHControlViewController.m; sourceTree = "<group>"; };
-		D8FA0DD117B8B6BA00F62DD6 /* SHControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHControlViewController.xib; sourceTree = "<group>"; };
 		D8FA0DD417B8B6CE00F62DD6 /* SHSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSettingsViewController.h; sourceTree = "<group>"; };
 		D8FA0DD517B8B6CE00F62DD6 /* SHSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSettingsViewController.m; sourceTree = "<group>"; };
 		D8FA0DD617B8B6CE00F62DD6 /* SHSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHSettingsViewController.xib; sourceTree = "<group>"; };
@@ -147,12 +150,14 @@
 				D8FA0DCC17B8B5AC00F62DD6 /* SHLoginViewController.xib */,
 				D8FA0DCF17B8B6BA00F62DD6 /* SHControlViewController.h */,
 				D8FA0DD017B8B6BA00F62DD6 /* SHControlViewController.m */,
-				D8FA0DD117B8B6BA00F62DD6 /* SHControlViewController.xib */,
 				D8FA0DD417B8B6CE00F62DD6 /* SHSettingsViewController.h */,
 				D8FA0DD517B8B6CE00F62DD6 /* SHSettingsViewController.m */,
 				D8FA0DD617B8B6CE00F62DD6 /* SHSettingsViewController.xib */,
 				D8FA0DD917B8C19B00F62DD6 /* SHNavigationViewController.h */,
 				D8FA0DDA17B8C19B00F62DD6 /* SHNavigationViewController.m */,
+				5277648C17B926F4006E9122 /* SHControlDetailViewController.h */,
+				5277648D17B926F4006E9122 /* SHControlDetailViewController.m */,
+				5277648E17B926F4006E9122 /* SHControlDetailViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -217,8 +222,8 @@
 				D8FC19AF17B89B0F00C2627C /* second.png in Resources */,
 				D8FC19B117B89B0F00C2627C /* second@2x.png in Resources */,
 				D8FA0DCE17B8B5AC00F62DD6 /* SHLoginViewController.xib in Resources */,
-				D8FA0DD317B8B6BA00F62DD6 /* SHControlViewController.xib in Resources */,
 				D8FA0DD817B8B6CE00F62DD6 /* SHSettingsViewController.xib in Resources */,
+				5277649017B926F4006E9122 /* SHControlDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +240,7 @@
 				D8FA0DD217B8B6BA00F62DD6 /* SHControlViewController.m in Sources */,
 				D8FA0DD717B8B6CE00F62DD6 /* SHSettingsViewController.m in Sources */,
 				D8FA0DDB17B8C19B00F62DD6 /* SHNavigationViewController.m in Sources */,
+				5277648F17B926F4006E9122 /* SHControlDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

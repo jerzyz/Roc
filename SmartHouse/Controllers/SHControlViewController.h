@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHNavigationViewController.h"
 
-@interface SHControlViewController : SHNavigationViewController <UITabBarControllerDelegate>
-
-@property (nonatomic, strong)UITabBarController *tabBarController;
+@interface SHControlViewController : UITabBarController <UITabBarControllerDelegate>
 
 @end

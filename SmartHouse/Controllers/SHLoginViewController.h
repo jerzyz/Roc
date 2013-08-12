@@ -10,4 +10,10 @@
 
 @interface SHLoginViewController : UIViewController
 
+@property (nonatomic, strong)UIView *loginView;
+@property (nonatomic, strong)UITextField *passwordField;
+@property (nonatomic, strong)UIButton *loginButton;
+
+- (void)loginCheck;
+
 @end
